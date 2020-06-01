@@ -1,0 +1,29 @@
+{
+  "name": "codeceptjs-influxdbhelper",
+  "version": "1.0.0",
+  "description": "InfluxDB Helper for CodeceptJS to collect test metrics",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Percona-Lab/codeceptjs-influxdbhelper.git"
+  },
+  "keywords": [
+    "codeceptJS",
+    "codeceptjs",
+    "influxdb",
+    "codeceptjs-influxdbhelper"
+  ],
+  "author": "Puneet Kala <puneet.kala@percona.com>",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.3",
+    "eslint-plugin-codeceptjs": "^0.4.0",
+    "influx": "^5.5.1"
+  },
+  "peerDependencies": {
+    "codeceptjs": "*"
+  },
+  "license": "MIT"
+}
