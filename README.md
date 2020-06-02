@@ -1,6 +1,11 @@
 # codeceptjs-influxdbhelper
 CodeceptJS helper to collect Test Execution Metrics with the help of CodeceptJS test events, these metrics can be used to create test metrics dashboards.
 
+## Installation
+Install the helper and use it with your tests.
+
+`npm i codeceptjs-influxdbhelper --save-dev`
+
 ## Configuration
 
 This helper should be added in the codeceptjs configuration file
